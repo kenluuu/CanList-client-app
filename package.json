@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@trendmicro/react-modal": "^2.2.2",
+    "axios": "^0.18.0",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-accessible-accordion": "^2.4.5",
+    "react-dom": "^16.6.3",
+    "react-dropdown": "^1.6.2",
+    "react-responsive-modal": "^3.5.1",
+    "react-router-dom": "^4.3.1",
+    "rodal": "^1.6.3"
   },
   "devDependencies": {
     "react-scripts": "2.1.1"

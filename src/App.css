@@ -7,6 +7,20 @@
   height: 40vmin;
 }
 
+html {
+  min-height: 100%;
+  
+}
+
+body, #root, #home-container {
+  min-height: 1000px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -29,4 +43,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#home-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  
+}
+
+.title {
+  margin: 0 5px;
+  margin-top: 5px;
+}
+#home-content-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#indica-container {
+  flex: 1;
+  
+}
+
+#sativa-container {
+  flex: 1;
+ 
+  
+}
+
+
+#create-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color:#19750E;
+  border-radius: 50%;
+}
+
+#modal-container {
+  width: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.input {
+  height: 30px;
+  margin: 5px;
+  padding-left: 5px;
+
 }
